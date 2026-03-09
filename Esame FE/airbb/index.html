@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb Replica - Full Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="main-header">
+    <div class="navbar-top">
+        <div class="logo">
+            <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display:block;fill:#FF385C;height:32px;width:32px;"><path d="M16 1c2.008 0 3.463.963 4.751 3.269l.533 1.025c1.954 3.83 6.114 12.54 7.1 14.836l.145.353c.667 1.591.91 2.472.96 3.396l.01.415.001.228c0 4.062-2.877 6.478-6.357 6.478-2.224 0-4.556-1.258-6.709-3.386l-.257-.26-.172-.179h-.011l-.176.185c-2.044 2.1-4.392 3.42-6.72 3.636l-.261.015-.231.008-1.223-.003c-3.153-.13-5.738-2.711-5.868-5.832l-.003-.19-.004-.265c0-1.13.252-2.097.944-3.513l.146-.289c1.558-3.05 4.864-9.352 7.156-13.674l.527-1.013C12.51 1.95 13.973 1 16 1zm0 2.1c-1.298 0-2.254.662-3.336 2.593l-.407.785-1.42 2.731c-1.393 2.682-3.39 6.541-5.187 10.057l-.37 1.157a4.912 4.912 0 0 0-.154.918l-.005.143c-.001.373.02.661.07.91l.019.083c.27 1.01 1.042 1.782 2.052 2.052l.144.03c.28.05.614.072 1.006.072h1.222c1.78 0 3.67-.991 5.37-2.618l.317-.312.317.312c1.7 1.627 3.59 2.618 5.37 2.618 2.29 0 4.157-1.583 4.253-3.83l.004-.32v-.122c0-.52-.108-1.071-.43-1.84l-.133-.301c-.131-.295-.316-.708-.553-1.233-.827-1.83-4.143-8.62-5.952-12.26l-.417-.841C18.254 3.762 17.298 3.1 16 3.1zM16 14.5a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm0 2.1a.9.9 0 1 0 0 1.8.9.9 0 0 0 0-1.8z"></path></svg>
+        </div>
+        <div class="search-bar">
+            <span>Ovunque</span>
+            <span class="separator">|</span>
+            <span>Qualunque settimana</span>
+            <span class="separator">|</span>
+            <span class="add-guests">Aggiungi ospiti</span>
+            <div class="search-icon">🔍</div>
+        </div>
+        <div class="user-menu">
+            <span>Affitta con Airbnb</span>
+            <div class="profile-box">☰ 👤</div>
+        </div>
+    </div>
+
+    <div class="categories-wrapper">
+        <div class="categories-scroll">
+            <div class="category-item active"><span>Iconiche</span></div>
+            <div class="category-item"><span>Piscine</span></div>
+            <div class="category-item"><span>Design</span></div>
+            <div class="category-item"><span>Baite</span></div>
+            <div class="category-item"><span>Campagna</span></div>
+            <div class="category-item"><span>Stanze</span></div>
+            <div class="category-item"><span>Viste incredibili</span></div>
+            <div class="category-item"><span>Spiagge</span></div>
+            <div class="category-item"><span>Grotte</span></div>
+            <div class="category-item"><span>Tropicali</span></div>
+        </div>
+    </div>
+</header>
+
+<main class="content-placeholder">
+    <div class="slider-header">
+        <h2>Destinazioni popolari</h2>
+        <div class="slider-controls">
+            <button onclick="document.querySelector('.grid-content').scrollBy({left: -400, behavior: 'smooth'})">❮</button>
+            <button onclick="document.querySelector('.grid-content').scrollBy({left: 400, behavior: 'smooth'})">❯</button>
+        </div>
+    </div>
+    
+    <div class="grid-content">
+        <div class="dummy-card"></div>
+        <div class="dummy-card"></div>
+        <div class="dummy-card"></div>
+        <div class="dummy-card"></div>
+        <div class="dummy-card"></div>
+        <div class="dummy-card"></div>
+        <div class="dummy-card"></div>
+        <div class="dummy-card"></div>
+    </div>
+</main>
+
+</body>
+</html>
